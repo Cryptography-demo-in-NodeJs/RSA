@@ -55,7 +55,7 @@ setTimeout (async()=>{
     }  catch(err) {
         console.log(err); 
     }
-}, 1000);  
+}, 5000);  
 
 
 app.listen(process.env.CLIENT_PORT,()=>{
